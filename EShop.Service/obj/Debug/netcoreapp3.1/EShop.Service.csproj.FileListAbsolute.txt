@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\projectTest\EShop.Service\bin\Debug\netcoreapp3.1\EShop.Service.deps.json
+C:\Users\User\Desktop\projectTest\EShop.Service\bin\Debug\netcoreapp3.1\EShop.Service.dll
+C:\Users\User\Desktop\projectTest\EShop.Service\bin\Debug\netcoreapp3.1\EShop.Service.pdb
+C:\Users\User\Desktop\projectTest\EShop.Service\bin\Debug\netcoreapp3.1\EShop.Domain.dll
+C:\Users\User\Desktop\projectTest\EShop.Service\bin\Debug\netcoreapp3.1\EShop.Repository.dll
+C:\Users\User\Desktop\projectTest\EShop.Service\bin\Debug\netcoreapp3.1\EShop.Domain.pdb
+C:\Users\User\Desktop\projectTest\EShop.Service\bin\Debug\netcoreapp3.1\EShop.Repository.pdb
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.csproj.CopyComplete
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.dll
+C:\Users\User\Desktop\projectTest\EShop.Service\obj\Debug\netcoreapp3.1\EShop.Service.pdb
