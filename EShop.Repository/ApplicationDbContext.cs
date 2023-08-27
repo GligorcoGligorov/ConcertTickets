@@ -33,8 +33,8 @@ namespace EShop.Repository
                 .Property(z => z.Id)
                 .ValueGeneratedOnAdd();
 
-            builder.Entity<ConcertInShoppingCart>()
-                .HasKey(z => new { z.ConcertId, z.ShoppingCartId });
+            //builder.Entity<ConcertInShoppingCart>()
+            //    .HasKey(z => new { z.ConcertId, z.ShoppingCartId });
 
             builder.Entity<ConcertInShoppingCart>()
                 .HasOne(z => z.Concert)
@@ -51,8 +51,8 @@ namespace EShop.Repository
                 .WithOne(z => z.UserCart)
                 .HasForeignKey<ShoppingCart>(z => z.OwnerId);
 
-            builder.Entity<ConcertInOrder>()
-                .HasKey(z => new { z.ConcertId, z.OrderId });
+        //    builder.Entity<ConcertInOrder>()
+        //        .HasKey(z => new { z.ConcertId, z.OrderId });
 
             builder.Entity<ConcertInOrder>()
                 .HasOne(z => z.OrderedConcert)

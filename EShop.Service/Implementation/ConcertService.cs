@@ -2,6 +2,7 @@
 using EShop.Domain.DTO;
 using EShop.Repository.Interface;
 using EShop.Service.Interface;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,14 +14,17 @@ namespace EShop.Service.Implementation
     {
         private readonly IRepository<Concert> _concertRepository;
         private readonly IRepository<ConcertInShoppingCart> _concertInShoppingCartRepository;
+        private readonly ILogger<ConcertService> _logger;
 
         private readonly IUserRepository _userRepository;
 
 
-        public ConcertService(IRepository<Concert> concertRepository, IUserRepository userRepository)
+        public ConcertService(IRepository<Concert> concertRepository, ILogger<ConcertService> logger, IUserRepository userRepository, IRepository<ConcertInShoppingCart> concertInShoppingCartRepository)
         {
             _concertRepository = concertRepository;
             _userRepository = userRepository;
+            _concertInShoppingCartRepository = concertInShoppingCartRepository;
+            _logger = logger;
         }
 
         public bool AddToShoppingCart(AddToShoppingCartDto item, string userID)
@@ -43,8 +47,11 @@ namespace EShop.Service.Implementation
                     };
 
                     this._concertInShoppingCartRepository.Insert(itemToAdd);
+                    _logger.LogInformation("Product was sucessfully added into ShoppingCard");
+
                     return true;
                 }
+                _logger.LogInformation("Something was wrong. ProductId or UserShoppingCard may be unavailable!");
                 return false;
 
             }
@@ -65,6 +72,7 @@ namespace EShop.Service.Implementation
 
         public List<Concert> GetAllConcerts()
         {
+            _logger.LogInformation("GetAllConcerts are called!");
             return this._concertRepository.GetAll().ToList();
         }
 
