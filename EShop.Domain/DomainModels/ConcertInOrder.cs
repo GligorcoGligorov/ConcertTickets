@@ -11,6 +11,8 @@ namespace EShop.Domain.DomainModels
         public Concert OrderedConcert { get; set; }
         public Guid OrderId { get; set; }
         public Order UserOrder { get; set; }
+        public int Quantity { get; set; }
+
 
     }
 }

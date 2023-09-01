@@ -18,6 +18,8 @@ namespace EShop.Repository
         public virtual DbSet<ConcertInShoppingCart> ConcertInShoppingCarts { get; set; }
         public virtual DbSet<ConcertInOrder> ConcertInOrders { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<EmailMessage> EmailMessages { get; set; }
+
 
 
 
@@ -35,6 +37,9 @@ namespace EShop.Repository
 
             //builder.Entity<ConcertInShoppingCart>()
             //    .HasKey(z => new { z.ConcertId, z.ShoppingCartId });
+            builder.Entity<ConcertInShoppingCart>()
+                .Property(z => z.Id)
+                .ValueGeneratedOnAdd();
 
             builder.Entity<ConcertInShoppingCart>()
                 .HasOne(z => z.Concert)
@@ -51,8 +56,11 @@ namespace EShop.Repository
                 .WithOne(z => z.UserCart)
                 .HasForeignKey<ShoppingCart>(z => z.OwnerId);
 
-        //    builder.Entity<ConcertInOrder>()
-        //        .HasKey(z => new { z.ConcertId, z.OrderId });
+            //    builder.Entity<ConcertInOrder>()
+            //        .HasKey(z => new { z.ConcertId, z.OrderId });
+            builder.Entity<ConcertInOrder>()
+                    .Property(z => z.Id)
+                    .ValueGeneratedOnAdd();
 
             builder.Entity<ConcertInOrder>()
                 .HasOne(z => z.OrderedConcert)

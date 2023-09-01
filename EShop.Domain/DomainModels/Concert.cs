@@ -20,7 +20,7 @@ namespace EShop.Domain.DomainModels
         public int Rating { get; set; }
 
         public virtual ICollection<ConcertInShoppingCart> ConcertInShoppingCarts { get; set; }
-        public IEnumerable<ConcertInOrder> ConcertInOrders { get; set; }
+        public virtual ICollection<ConcertInOrder> ConcertInOrders { get; set; }
 
 
 

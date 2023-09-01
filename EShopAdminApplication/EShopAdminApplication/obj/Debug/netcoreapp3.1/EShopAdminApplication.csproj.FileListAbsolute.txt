@@ -41,3 +41,17 @@ C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bi
 C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\obj\Debug\netcoreapp3.1\Razor\Views\Order\Details.cshtml.g.cs
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\GemBox.Document.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\GemBox.Document.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\obj\Debug\netcoreapp3.1\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\ExcelDataReader.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\ClosedXML.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\ExcelNumberFormat.dll
+C:\Users\User\Desktop\projectTest\EShopAdminApplication\EShopAdminApplication\bin\Debug\netcoreapp3.1\System.IO.Packaging.dll

@@ -8,6 +8,10 @@
 
 <div class="container">
 
+    <div class="row">
+        <a class="btn btn-outline-success" asp-controller="Order" asp-action="ExportAllOrders">Export Orders</a>
+    </div>
+
     <div class="row m-4">
         <table class="table">
             <thead class="thead-dark">
@@ -17,6 +21,8 @@
                     <th scope="col">Number of Concerts</th>
                     <th scope="col"></th>
                     <th></th>
+                    <th></th>
+
                 </tr>
             </thead>
             <tbody>
@@ -30,6 +36,8 @@
                             <td>@item.ConcertInOrders.Count</td>
                             <td>
                                 <a asp-controller="Order" asp-action="Details" asp-route-orderId="@item.Id" class="btn btn-info">View Order</a>
+                                <a asp-controller="Order" asp-action="CreateInvoice" asp-route-orderId="@item.Id" class="btn btn-info">Create Invoice</a>
+
                             </td>
                         </tr>
                     }

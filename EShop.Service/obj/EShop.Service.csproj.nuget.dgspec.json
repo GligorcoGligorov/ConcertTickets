@@ -187,6 +187,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
             "NLog": {
               "target": "Package",
               "version": "[4.7.9, )"
