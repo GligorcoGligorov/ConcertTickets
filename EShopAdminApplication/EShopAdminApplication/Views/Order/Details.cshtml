@@ -7,7 +7,31 @@
 @model EShopAdminApplication.Models.Order
 
 
-<div class="container">
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    
+
+
+    .background {
+        background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/RjUB73.jpg');
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+</style>
+<div class="background"></div>
+<div class="container position-relative">
     <div class="m-3">
         <a class="btn btn-success">Order For: @Model.User.UserName</a>
     </div>
@@ -30,7 +54,7 @@
 
                         <h6>Price: <span class="text-success">$@item.ConcertPrice</span></h6>
                     </div>
-                    
+
                 </div>
             </div>
 

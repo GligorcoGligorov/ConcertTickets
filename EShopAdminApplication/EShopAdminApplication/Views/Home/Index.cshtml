@@ -2,7 +2,41 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+
+
+    .background {
+        background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/RjUB73.jpg');
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .center-screen {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white; /* Set text color to white for better visibility */
+    }
+</style>
+
+<div class="background"></div>
+<div class="text-center mt-4 center-screen" style="z-index: 1;">
+    <h1 class="display-4">Welcome Admin</h1>
+    <h2 class="display-3">ONLINE CONCERT TICKETS</h2>
 </div>
+

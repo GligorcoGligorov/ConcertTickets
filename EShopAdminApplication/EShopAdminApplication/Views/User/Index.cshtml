@@ -4,10 +4,34 @@
 @{
 }
 
-<form asp-controller="User" asp-action="ImportUsers" method="post" enctype="multipart/form-data">
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
 
-    <div class="form-group w-25">
-        <input type="file" name="file" class="form-control" />
+
+
+    .background {
+        background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/RjUB73.jpg');
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+</style>
+<div class="background"></div>
+
+<form asp-controller="User" asp-action="ImportUsers" method="post" enctype="multipart/form-data" class="position-relative">
+
+    <div class="form-group w-25" >
+        <input type="file" name="file" class="form-control" style="background-color: #dcccac;" />
 
     </div>
 
